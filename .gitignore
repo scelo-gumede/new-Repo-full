@@ -1,0 +1,60 @@
+# Node.js / Backend (apiTest folder)
+# Dependency directories
+/apiTest/node_modules/
+
+# Logs
+/apiTest/npm-debug.log
+/apiTest/yarn-debug.log
+/apiTest/yarn-error.log
+
+# Environment variables
+/apiTest/.env
+/apiTest/.env.local
+/apiTest/.env.*.local
+
+# Build output
+/apiTest/dist/
+/apiTest/build/
+
+# Coverage reports
+/apiTest/coverage/
+
+# Temporary files
+/apiTest/*.swp
+/apiTest/*.swo
+
+# Frontend (frontend folder using Vite)
+# Dependency directories
+/frontend/node_modules/
+
+# Build output
+/frontend/dist/
+
+# Environment variables
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Vite-specific
+/frontend/.vite/
+
+# Logs
+/frontend/npm-debug.log
+/frontend/yarn-debug.log
+/frontend/yarn-error.log
+
+# Temporary files
+/frontend/*.swp
+/frontend/*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Other
+*.log
+*.tmp
